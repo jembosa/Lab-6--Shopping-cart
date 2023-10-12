@@ -6,6 +6,7 @@
         {
             Dictionary<string, decimal> menu = new Dictionary<string, decimal>
         {
+             //item-----price
             { "Banana", 0.99M },
             { "Apple", 1.99M },
             { "Carrot", 2.99M },
@@ -50,6 +51,7 @@
 
             Console.WriteLine("\nYour Shopping Cart:");
             Console.WriteLine("Item Name\tPrice");
+            Console.WriteLine("_______________________");
             decimal total = 0;
 
             foreach (var item in shoppingcart)
